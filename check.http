@@ -1,0 +1,27 @@
+POST https://shivakumarujhspnjscpfvwof.drops.nxtwave.tech/register/
+Content-Type: application/json
+
+{
+  "username": "abc",
+  "name": "Adam Richard",
+  "password": "abcde",
+  "gender": "male",
+  "location": "Detroit"
+}
+
+POST https://shivakumarujhspnjscpfvwof.drops.nxtwave.tech/login/
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "password": "richards_567"
+}
+
+PUT https://shivakumarujhspnjscpfvwof.drops.nxtwave.tech/change-password/
+Content-Type: application/json
+
+{
+  "username": "abc",
+  "oldPassword": "abcdef",
+  "newPassword": "abcdefg"
+}
